@@ -1,0 +1,851 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+.nav-link {
+    text-decoration: none;
+    color: #01384d;
+}
+
+.nav-link:hover {
+    color: #2596be;
+}
+
+
+.nav {
+    font-size: x-large;
+    font-weight: bold;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.buttonNavPosition {
+    width: 350px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.buttonNav {
+    font-size: x-large;
+    font-weight: bold;
+    border: 2px solid;
+    border-radius: 80px;
+    color: #01384d;
+
+}
+
+.buttonNav:hover {
+    color: #2596be;
+}
+
+.borderNav {
+    margin: 10px;
+    padding: 10px;
+    border-left: 1px solid rgba(128, 128, 128, 0.267);
+}
+
+.sectionOne {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 950px;
+    height: 900px;
+    background-color: #002033;
+}
+
+.PositionSectionOne {
+    position: relative;
+    left: -280px;
+}
+
+.buttonSectionOne {
+    color: white;
+    border-color: white;
+    border-radius: 50px;
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+}
+
+.positionButtonSecOne {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+
+}
+
+
+.TittleSecOne {
+    height: 350px;
+    width: 400px;
+    position: absolute;
+    top: 210px;
+    left: 220px;
+    color: white;
+    text-align: start;
+}
+
+.Tittle {
+    width: 600px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.sub {
+    border-bottom: 5px solid #1fb0e6;
+}
+
+.textSecOne {
+    color: white;
+    position: absolute;
+    bottom: 300px;
+    left: 220px;
+    width: 650px;
+    text-align: start;
+    border-top: 2px solid rgba(128, 128, 128, 0.253);
+    padding-top: 20px;
+}
+
+.contact {
+    width: 200px;
+    height: 50px;
+    color: #064057;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 200px;
+    left: 220px;
+}
+
+.imgSection {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 900px;
+    height: 900px;
+    right: 10px;
+}
+
+.form {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    top: 290px;
+    right: 100px;
+}
+
+.btnForm {
+    color: #064057;
+    ;
+    border: 2px solid #064057;
+    position: absolute;
+    border-radius: 50px;
+    font-weight: bold;
+    top: 70px;
+    left: 70px;
+}
+
+.tittleForm {
+    position: absolute;
+    top: 130px;
+    left: 70px;
+    color: #064057;
+    font-weight: bold;
+}
+
+.PlaceOne {
+    position: absolute;
+    top: 180px;
+    left: 70px;
+
+}
+
+.placeHolder {
+    height: 60px;
+}
+
+.placeHolderTwo {
+    height: 60px;
+    position: absolute;
+    left: 250px;
+    top: 1px;
+}
+
+.textArea {
+    position: absolute;
+    top: 70px;
+    width: 470px;
+    height: 180px;
+
+}
+
+.heigthText {
+    height: 180px;
+}
+
+.getIn {
+    position: absolute;
+    top: 280px;
+    left: 2px;
+    width: 470px;
+    border: 2px solid #064057;
+    color: #064057;
+    border-radius: 10px;
+}
+
+/* Media Queries */
+
+/* Tablets (pantallas entre 768px y 1024px) */
+@media (max-width: 1024px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+
+    .nav-link {
+        text-decoration: none;
+        color: #01384d;
+    }
+
+    .nav-link:hover {
+        color: #2596be;
+    }
+
+
+    .nav {
+        position: relative;
+        left: -50px;
+        font-size: large;
+        font-weight: bold;
+       
+
+    }
+
+    .buttonNavPosition {
+        width: 100px;
+        position: relative;
+        left: -100px;
+    }
+
+    .buttonNav {
+        font-size: x-large;
+        font-weight: bold;
+        border: 2px solid;
+        border-radius: 80px;
+        color: #01384d;
+
+    }
+
+    .buttonNav:hover {
+        color: #2596be;
+    }
+
+    .borderNav {
+        margin: 10px;
+        padding: 10px;
+        border-left: 1px solid rgba(128, 128, 128, 0.267);
+    }
+  
+
+    .sectionOne {
+        position: relative;
+        width: 900px;
+        height: 900px;
+        background-color: #022633;
+        right: -250px;
+    }
+
+
+    .buttonSectionOne {
+        color: white;
+        border-color: white;
+        border-radius: 50px;
+        width: 250px;
+        height: 50px;
+        font-weight: bold;
+    }
+
+    .positionButtonSecOne {
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        top: 150px;
+        left: 200px;
+
+    }
+
+
+    .TittleSecOne {
+        height: 350px;
+        width: 300px;
+        position: absolute;
+        top: 210px;
+        left: 220px;
+        color: white;
+        text-align: start;
+    }
+
+    .Tittle {
+        width: 500px;
+        font-size: 60px;
+        font-weight: bolder;
+    }
+
+    .sub {
+        border-bottom: 5px solid #1fb0e6;
+    }
+
+    .textSecOne {
+        color: white;
+        position: absolute;
+        bottom: 300px;
+        left: 220px;
+        width: 650px;
+        text-align: start;
+        border-top: 2px solid rgba(128, 128, 128, 0.253);
+        padding-top: 20px;
+    }
+
+    .contact {
+        width: 200px;
+        height: 50px;
+        color: #064057;
+        background-color: white;
+        border: 2px solid white;
+        border-radius: 50px;
+        font-weight: bold;
+        position: absolute;
+        bottom: 200px;
+        left: 220px;
+    }
+
+    .imgSection {
+        position: relative;
+        display: flex;
+        width: 930px;
+        height: 900px;
+        bottom: -900px;
+        left: -500px;
+    }
+
+    .form {
+        position: absolute;
+        width: 600px;
+        height: 600px;
+        background-color: white;
+        top: 1200px;
+        right: 150px;
+    }
+
+    .btnForm {
+        color: #064057;
+        ;
+        border: 2px solid #064057;
+        position: absolute;
+        border-radius: 50px;
+        font-weight: bold;
+        top: 70px;
+        left: 70px;
+    }
+
+    .tittleForm {
+        position: absolute;
+        top: 130px;
+        left: 70px;
+        color: #064057;
+        font-weight: bold;
+    }
+
+    .PlaceOne {
+        position: absolute;
+        top: 180px;
+        left: 70px;
+
+    }
+
+    .placeHolder {
+        height: 60px;
+    }
+
+    .placeHolderTwo {
+        height: 60px;
+        position: absolute;
+        left: 250px;
+        top: 1px;
+    }
+
+    .textArea {
+        position: absolute;
+        top: 70px;
+        width: 470px;
+        height: 180px;
+
+    }
+
+    .heigthText {
+        height: 180px;
+    }
+
+    .getIn {
+        position: absolute;
+        top: 280px;
+        left: 2px;
+        width: 470px;
+        border: 2px solid #064057;
+        color: #064057;
+        border-radius: 10px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+
+    .nav-link {
+        text-decoration: none;
+        color: #01384d;
+    }
+
+    .nav-link:hover {
+        color: #2596be;
+    }
+
+
+    .nav {
+        font-size: x-large;
+        font-weight: bold;
+        margin: 20px;
+        padding: 20px;
+
+    }
+
+    .buttonNavPosition {
+        width: 350px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .buttonNav {
+        font-size: x-large;
+        font-weight: bold;
+        border: 2px solid;
+        border-radius: 80px;
+        color: #01384d;
+
+    }
+
+    .buttonNav:hover {
+        color: #2596be;
+    }
+
+    .borderNav {
+        margin: 10px;
+        padding: 10px;
+        border-left: 1px solid rgba(128, 128, 128, 0.267);
+    }
+
+    .sectionOne {
+        position: relative;
+        width: 790px;
+        height: 900px;
+        background-color: #022633;
+        right: -80px;
+    }
+
+    .PositionSectionOne {
+        position: relative;
+        left: -280px;
+    }
+
+    .buttonSectionOne {
+        color: white;
+        border-color: white;
+        border-radius: 50px;
+        width: 250px;
+        height: 50px;
+        font-weight: bold;
+    }
+
+    .positionButtonSecOne {
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        top: 150px;
+        left: 140px;
+
+    }
+
+
+    .TittleSecOne {
+        height: 350px;
+        width: 200px;
+        position: absolute;
+        top: 210px;
+        left: 170px;
+        color: white;
+        text-align: start;
+    }
+
+    .Tittle {
+        width: 600px;
+        font-size: 60px;
+        font-weight: bolder;
+    }
+
+    .sub {
+        border-bottom: 5px solid #1fb0e6;
+    }
+
+    .textSecOne {
+        color: white;
+        position: absolute;
+        bottom: 300px;
+        left: 220px;
+        width: 500px;
+        text-align: start;
+        border-top: 2px solid rgba(128, 128, 128, 0.253);
+        padding-top: 20px;
+    }
+
+    .contact {
+        width: 200px;
+        height: 50px;
+        color: #064057;
+        background-color: white;
+        border: 2px solid white;
+        border-radius: 50px;
+        font-weight: bold;
+        position: absolute;
+        bottom: 200px;
+        left: 220px;
+    }
+
+    .imgSection {
+        position: relative;
+        display: flex;
+        width: 820px;
+        height: 900px;
+        bottom: -900px;
+        left: -500px;
+    }
+
+    .form {
+        position: relative;
+        width: -600px;
+        height: -600px;
+        background-color: white;
+        top: 100px;
+        right: 310px;
+    }
+
+    .btnForm {
+        color: #064057;
+        ;
+        border: 2px solid #064057;
+        position: absolute;
+        border-radius: 50px;
+        font-weight: bold;
+        top: 70px;
+        left: 70px;
+    }
+
+    .tittleForm {
+        position: absolute;
+        top: 130px;
+        left: 70px;
+        color: #064057;
+        font-weight: bold;
+    }
+
+    .PlaceOne {
+        position: absolute;
+        top: 180px;
+        left: 70px;
+
+    }
+
+    .placeHolder {
+        height: 60px;
+    }
+
+    .placeHolderTwo {
+        height: 60px;
+        position: absolute;
+        left: 250px;
+        top: 1px;
+    }
+
+    .textArea {
+        position: absolute;
+        top: 70px;
+        width: 470px;
+        height: 180px;
+
+    }
+
+    .heigthText {
+        height: 180px;
+    }
+
+    .getIn {
+        position: absolute;
+        top: 280px;
+        left: 2px;
+        width: 470px;
+        border: 2px solid #064057;
+        color: #064057;
+        border-radius: 10px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+
+    .nav-link {
+        text-decoration: none;
+        color: #01384d;
+    }
+
+    .nav-link:hover {
+        color: #2596be;
+    }
+
+
+    .nav {
+        font-size: x-large;
+        font-weight: bold;
+        margin: 20px;
+        padding: 20px;
+
+    }
+
+    .buttonNavPosition {
+        width: 350px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .buttonNav {
+        font-size: x-large;
+        font-weight: bold;
+        border: 2px solid;
+        border-radius: 80px;
+        color: #01384d;
+
+    }
+
+    .buttonNav:hover {
+        color: #2596be;
+    }
+
+    .borderNav {
+        margin: 10px;
+        padding: 10px;
+        border-left: 1px solid rgba(128, 128, 128, 0.267);
+    }
+
+    .sectionOne {
+        position: relative;
+        width: 790px;
+        height: 900px;
+        background-color: #022633;
+        right: -80px;
+    }
+
+    .PositionSectionOne {
+        position: relative;
+        left: -280px;
+    }
+
+    .buttonSectionOne {
+        color: white;
+        border-color: white;
+        border-radius: 50px;
+        width: 250px;
+        height: 50px;
+        font-weight: bold;
+    }
+
+    .positionButtonSecOne {
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        top: 150px;
+        left: 180px;
+
+    }
+
+
+    .TittleSecOne {
+        height: 350px;
+        width: 200px;
+        position: absolute;
+        top: 210px;
+        left: 210px;
+        color: white;
+        text-align: start;
+    }
+
+    .Tittle {
+        width: 500px;
+        font-size: 60px;
+        font-weight: bolder;
+    }
+
+    .sub {
+        border-bottom: 5px solid #1fb0e6;
+    }
+
+    .textSecOne {
+        color: white;
+        position: absolute;
+        bottom: 300px;
+        left: 220px;
+        width: 500px;
+        text-align: start;
+        border-top: 2px solid rgba(128, 128, 128, 0.253);
+        padding-top: 20px;
+    }
+
+    .contact {
+        width: 200px;
+        height: 50px;
+        color: #064057;
+        background-color: white;
+        border: 2px solid white;
+        border-radius: 50px;
+        font-weight: bold;
+        position: absolute;
+        bottom: 200px;
+        left: 220px;
+    }
+
+    .imgSection {
+        position: relative;
+        display: flex;
+        width: 770px;
+        height: 900px;
+        bottom: -900px;
+        left: -400px;
+    }
+
+    .form {
+        position: relative;
+        width: -400px;
+        height: -500px;
+        background-color: white;
+        top: 100px;
+        right: 240px;
+    }
+
+    .btnForm {
+        color: #064057;
+        ;
+        border: 2px solid #064057;
+        position: absolute;
+        border-radius: 50px;
+        font-weight: bold;
+        top: 70px;
+        left: 70px;
+    }
+
+    .tittleForm {
+        position: absolute;
+        top: 130px;
+        left: 70px;
+        color: #064057;
+        font-weight: bold;
+    }
+
+    .PlaceOne {
+        position: absolute;
+        top: 180px;
+        left: 70px;
+
+    }
+
+    .placeHolder {
+        height: 60px;
+    }
+
+    .placeHolderTwo {
+        height: 60px;
+        position: absolute;
+        left: 250px;
+        top: 1px;
+    }
+
+    .textArea {
+        position: absolute;
+        top: 70px;
+        width: 470px;
+        height: 180px;
+
+    }
+
+    .heigthText {
+        height: 180px;
+    }
+
+    .getIn {
+        position: absolute;
+        top: 280px;
+        left: 2px;
+        width: 470px;
+        border: 2px solid #064057;
+        color: #064057;
+        border-radius: 10px;
+    }
+}
